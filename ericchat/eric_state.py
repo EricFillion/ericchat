@@ -70,7 +70,7 @@ class EricUIState:
     def _submit_chat(self):
         if self.cancel_inference:
             if self.current_marker_stream.marker in ("thinking", "think_start", "think_end", "special"):
-                self.current_marker_stream.text = f"**Cancelled: Thinking tokens:**\n\n {self.current_marker_stream.expanded_text}"
+                self.current_marker_stream.text = f"**Cancelled. Thinking tokens:**\n\n {self.current_marker_stream.expanded_text}"
             else:
                 self.current_marker_stream.text = self.current_marker_stream.text
 
