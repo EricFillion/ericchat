@@ -1,0 +1,49 @@
+[project]
+name = "ericchat"
+version = "0.0.1"
+description = "A Mac GUI for running LLMs locally and privately."
+readme = "README.md"
+license = { text = "Apache 2.0" }
+
+dependencies = [
+    "erictransformer<1.0.0",
+    "mlx-lm==0.29.1",
+    "huggingface-hub >= 0.34.0, < 1.0",
+    "markdown>=3.0, <4.0",
+    "bleach>=6.0.0, <7.0.0",
+    "toga==0.5.3",
+    "psutil>=7.0.0, <8.0.0",
+    "fsspec>=2025.2.0"
+]
+
+keywords = [
+    "transformer",
+    "generative-ai",
+    "llm",
+    "gui",
+    "ui",
+]
+
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Operating System :: MacOS :: MacOS X"]
+
+
+[tool.setuptools.packages.find]
+include = ["ericchat"]
+exclude = ["eric_transformer", "eric_search"]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Repository = "https://github.com/EricFillion/ericchat"
+

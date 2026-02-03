@@ -1,0 +1,15 @@
+global-exclude *
+
+recursive-include ericchat *.py
+
+include README.md
+include LICENSE*
+include pyproject.toml
+include ericchat/resources/icon.icns
+include ericchat/resources/LICENSE
+
+prune logs
+
+exclude .gitignore
+
+

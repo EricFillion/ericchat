@@ -1,0 +1,1 @@
+from ericchat.app import run
