@@ -2,6 +2,12 @@
   Eric Chat
 </h1>
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EricFillion/ericchat/main/logo.png" alt="Eric Chat logo" width="200">
+</p>
+
+
 <p align="center">
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache-2.0" height="20">
@@ -21,7 +27,7 @@ A Mac GUI for running LLMs locally and privately. Eric Chat uses [Eric Transform
 
 ## Install
 
-Mac only.
+macOS 14 or higher and Apple silicon are required. 
 
 ```sh
 pip install ericchat
