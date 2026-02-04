@@ -21,7 +21,7 @@ A Mac GUI for running LLMs locally and privately. Eric Chat uses [Eric Transform
 
 ## Install
 
-Mac only.
+macOS 14 or higher and Apple silicon are required. 
 
 ```sh
 pip install ericchat
