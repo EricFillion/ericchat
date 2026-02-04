@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EricFillion/ericchat/main/logo.png" alt="Eric Search logo" width="200">
+  <img src="https://raw.githubusercontent.com/EricFillion/ericchat/main/logo.png" alt="Eric Chat logo" width="200">
 </p>
 
 
